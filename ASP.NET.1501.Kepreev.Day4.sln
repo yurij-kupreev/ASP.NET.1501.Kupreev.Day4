@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_ToRefactoring", "ShopModel\Task1_ToRefactoring.csproj", "{8927D218-DE98-4F50-95C0-6B1C0573D659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "SortMatrixWithModes\Task2.csproj", "{5ECBF8EA-9B2B-4422-8AD9-7A17A9C40499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Tests", "Task2Tests\Task2Tests.csproj", "{D91DF538-56FD-41DA-92BF-1477241616B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8927D218-DE98-4F50-95C0-6B1C0573D659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECBF8EA-9B2B-4422-8AD9-7A17A9C40499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECBF8EA-9B2B-4422-8AD9-7A17A9C40499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECBF8EA-9B2B-4422-8AD9-7A17A9C40499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECBF8EA-9B2B-4422-8AD9-7A17A9C40499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91DF538-56FD-41DA-92BF-1477241616B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91DF538-56FD-41DA-92BF-1477241616B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91DF538-56FD-41DA-92BF-1477241616B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91DF538-56FD-41DA-92BF-1477241616B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

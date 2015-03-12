@@ -1,0 +1,9 @@
+D:\epam courses\Day 4\ToRefactoring\ASP.NET.1501.Kepreev.Day4\ShopModel\obj\Debug\ShopModel.exe
+D:\epam courses\Day 4\ToRefactoring\ASP.NET.1501.Kepreev.Day4\ShopModel\obj\Debug\ShopModel.pdb
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\obj\Debug\ShopModel.exe
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\obj\Debug\ShopModel.pdb
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\bin\Debug\ShopModel.exe
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\bin\Debug\ShopModel.pdb
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\obj\Debug\Task1_ToRefactoring.csprojResolveAssemblyReference.cache
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\bin\Debug\Autofac.dll
+D:\epam courses\ASP.NET.1501.Kepreev.Day4\ShopModel\bin\Debug\Autofac.xml

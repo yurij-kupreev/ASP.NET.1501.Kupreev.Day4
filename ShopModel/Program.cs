@@ -26,7 +26,7 @@ namespace ShopModel
                 });
             var container1 = builder.Build();
             var cart = container1.Resolve<ShoppingCart>();
-            Console.WriteLine("Standart total price  = {0}$", cart.CalculateProductTotal(0));
+            Console.WriteLine("Standart total price  = {0}$", cart.CalculateProductTotal());
             Console.WriteLine("Standart total price with discount 15%  = {0}$", cart.CalculateProductTotal(15));
 
             builder = new ContainerBuilder();
@@ -42,7 +42,7 @@ namespace ShopModel
             });
             var container2 = builder.Build();
             cart = container2.Resolve<ShoppingCart>();
-            Console.WriteLine("New total price = {0}$", cart.CalculateProductTotal(0));
+            Console.WriteLine("New total price = {0}$", cart.CalculateProductTotal());
         }
     }
 }

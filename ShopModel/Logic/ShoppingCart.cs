@@ -22,5 +22,9 @@ namespace ShopModel
             if (discount < 0 || discount > 100) throw new ArgumentException();
             return valueCalc.ValueProducts(Products, discount);
         }
+        public decimal CalculateProductTotal()
+        {
+            return valueCalc.ValueProducts(Products, 0);
+        }
     }
 }

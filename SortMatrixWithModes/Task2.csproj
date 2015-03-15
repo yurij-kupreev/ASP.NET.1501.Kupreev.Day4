@@ -39,10 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logic\ASortMode.cs" />
-    <Compile Include="Logic\BSortMode.cs" />
-    <Compile Include="Logic\CSortMode.cs" />
-    <Compile Include="Interface\ISortModes.cs" />
+    <Compile Include="Logic\Comparators.cs" />
+    <Compile Include="Interface\IComparer.cs" />
     <Compile Include="SortMatrixWithModes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

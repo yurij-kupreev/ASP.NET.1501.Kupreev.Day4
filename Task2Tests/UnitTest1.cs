@@ -16,7 +16,9 @@ namespace Task2Tests
             matrix[2] = new int[] { 2, 2, 2 }; 
             matrix[3] = new int[] { 4, 4, 5 };
 
-            SortMatrixWithModes.SortMatrixMode(matrix, new ASortMode(), true);
+            matrix.SortMatrixMode(new ElementsSumIncreasing());
+
+            
 
             int[][] expectedMatrix = new int[4][];
             expectedMatrix[0] = new int[] { 2, 2, 2 };
@@ -24,6 +26,7 @@ namespace Task2Tests
             expectedMatrix[2] = new int[] { 1, 1, 1, 10 };
             expectedMatrix[3] = new int[] { 4, 4, 5 };
 
+           // CollectionAssert.AreEqual(expectedMatrix, matrix);
             Assert.IsTrue(MatrixComparer(matrix, expectedMatrix));
         }
         [TestMethod]
@@ -35,7 +38,7 @@ namespace Task2Tests
             matrix[2] = new int[] { 2, 2, 2 };
             matrix[3] = new int[] { 4, 4, 5 };
 
-            SortMatrixWithModes.SortMatrixMode(matrix, new CSortMode(), true);
+            matrix.SortMatrixMode(new ElementsMaxIncreasing());
 
             int[][] expectedMatrix = new int[4][];
             expectedMatrix[0] = new int[] { 2, 2, 2 };
